@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule !\.(gif|jpg|png|css)$ index.php
+RewriteRule (.*) index.php [QSA,L]

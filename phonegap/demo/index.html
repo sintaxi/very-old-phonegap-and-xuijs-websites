@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Location testing</title>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=2.0;"/>
+<link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8">
+<script src="gap.js" ></script>
+
+<script>
+
+window.onload = function()
+{
+     Device.init();
+     $('infomodel').innerHTML = Device.model;
+     $('infoversion').innerHTML = Device.version;
+     Device.Location.callback = updateLocationCallback;
+     Device.Image.callback = 'image.php';
+}
+
+function updateLocationCallback(lat,lon) {
+    $('lat').innerHTML = "latitude: " + lat;
+ 	  $('lon').innerHTML = "longitude: " + lon;
+}
+
+function updateAccel(){
+	$('accel').innerHTML = "accel: " + accelX + " " + accelY + " " + accelZ;
+	
+	setTimeout(updateAccel,100);
+}
+
+</script>
+<body >
+<div id="container">
+	<div id="lat">
+		...
+	</div>
+	<div id="lon">
+		...
+	</div>
+	
+	<a href="#" onclick="Device.Location.init();">Update</a>
+	<a href="bounce.html">Gravity</a>
+	<a href="#" onclick="Device.vibrate();">Vibrate</a>
+	<a href="#" onclick="Device.Image.getFromPhotoLibrary();">Get Photo</a>
+	<div id="accel">
+	    ...
+	</div>
+<a href="http://i.mydailyphoto.com/flick_navigation.php">Flick Demo</a>
+	<span id="infomodel">Model</span>
+	<span id="infoversion">Version</span>
+	  
+</div>
+</body>
+</html>

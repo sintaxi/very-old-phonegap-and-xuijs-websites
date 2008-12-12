@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Location testing</title>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=2.0;"/>
+<link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8">
+<script src="gap.js"></script>
+<script src="mootools12b.js"></script>
+
+<script>
+
+function gotLocation(lat,lon){
+	// $('lat').innerHTML = "latitude: " + lat;
+	// $('lon').innerHTML = "longitude: " + lon;
+}
+
+
+var ballX = 0;
+var ballY = 0;
+function updateAccel(){
+	// $('accel').innerHTML = "accel: " + accelX + " " + accelY + " " + accelZ;
+	
+	ballX = ballX + accelX * 20;
+	ballY = ballY - accelY * 20;
+	
+	ballX = Math.max(0,Math.min(ballX, 320 - 135));
+	ballY = Math.max(0,Math.min(ballY, 480 - 135));
+	
+	$('ball').setStyle('left',ballX);
+	$('ball').setStyle('top',ballY);
+	
+	//	$('info').innerHTML = accelX + " " + accelY + " " + ballX + " " + ballY;
+	
+	setTimeout(updateAccel,20);
+}
+
+</script>
+<body>
+<div id="container">
+	<div id="ball" onclick="updateAccel();">
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+	font:16px/1.5 arial,sans-serif;
+	margin:0;
+	padding:0;
+}
+
+
+#lat,#lon,a{
+	border:2px solid skyblue;
+	padding:4px 6px;
+	margin:4px;
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+
+a{
+    border-color:black;
+    background-color:black;
+    color:white;
+}
+
+a:active{
+    background-color:gray;
+}
+
+#ball{
+	display: block;
+	background-image:url("ballIcon.png");
+	width:135px;
+	height:135px;
+	position:absolute;
+}
+
+#info{
+	display:block;
+	width:100%;
+	position:absolute;
+	height:30px;
+	border:1px solid pink;
+	top:260px;
+	
+}
+
+#accel{
+	
+}
