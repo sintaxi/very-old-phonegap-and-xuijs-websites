@@ -1,0 +1,3 @@
+# PhoneGap
+
+    cap deploy:phonegap
