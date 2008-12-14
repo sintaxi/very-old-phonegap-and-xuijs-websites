@@ -1,0 +1,19 @@
+
+body{
+font-family: Verdana, Arial, sans-serif;
+font-size:72%;
+line-height:1.5em;
+}
+:focus{ outline:0; }
+
+#nav .selected a{
+font-weight:bold;
+}
+
+h1.title{
+display:inline;
+}
+h1.title a{
+text-decoration:none;
+color:green;
+}
