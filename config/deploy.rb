@@ -1,15 +1,23 @@
-set :application, "phonegap"
-set :deploy_to, "/var/www/phonegap.com"
+# PhoneGap
+# set :application, "phonegap"
+# set :deploy_to, "/var/www/phonegap.com"
+# set :tmp, "#{application}_update"
+# set :app_root, "/"
+# set :user, "root"
+# set :use_sudo, true
+# role :web, "phonegap.com"
+
+# XUI
+set :application, "xui"
+set :deploy_to, "/home/.capriciously/silentrob/xuijs.com"
 set :tmp, "#{application}_update"
 set :app_root, "/"
+set :user, "silentrob"
+set :use_sudo, false
+role :web, "xuijs.com"
 
-set :user, "root"
-set :use_sudo, true
-
-role :web, "phonegap.com"
-
-namespace :deploy do
-  task :phonegap do
+namespace :xui do
+  task :deploy do
     # Copy
     system("cp -r #{application} #{tmp}")
     
