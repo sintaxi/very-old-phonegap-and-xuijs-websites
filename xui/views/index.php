@@ -13,4 +13,4 @@
 <p>XUI strives to be a framework for first class mobile device browsers such as WebKit, Fennec and Opera with future 
 support under consideration for IE Mobile and BlackBerry.</p>
 
-<a class="download" href="#">Download</a>
+<a class="download" href="http://github.com/brianleroux/xui/tree/master">Download</a>
