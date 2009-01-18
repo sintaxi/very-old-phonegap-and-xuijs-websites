@@ -1,0 +1,1 @@
+<?php $APP_ROOT = "/sites/xui/"; ?>
