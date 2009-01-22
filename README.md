@@ -1,3 +1,7 @@
+# XUI
+
+    cap -S app=xui deploy
+
 # PhoneGap
 
-    cap deploy:phonegap
+    cap -S app=phonegap deploy
