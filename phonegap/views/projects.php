@@ -7,6 +7,12 @@
     <ul id="apps">
       
       <li class="app">
+        <img class="pictue" src="<?= $APP_ROOT ?>images/app_icons/exibart.png"></img>
+        <h4>Exibart <span class="date">Emmi srl - Jan 26, 2009</span></h4>
+        <p>Exibart is a News application for the Italian online magazine <a href="http://exibart.com">Exibart.com</a>.</p>
+      </li>
+      
+      <li class="app">
         <img class="pictue" src="<?= $APP_ROOT ?>images/app_icons/translink.png"></img>
         <h4>TransLink <span class="date">Handi Mobility - Nov 09, 2008</span></h4>
         <p>Check out the Translink application to access comnplete schedules for 

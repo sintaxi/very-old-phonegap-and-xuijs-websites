@@ -398,3 +398,18 @@ form#group img{
   padding:10px;
   margin-right:15px;
 }
+
+
+#idev_badge{
+margin-top:5px;
+height:164px;
+width:180px;
+background:url(../images/badges/idev_badge_large.png) no-repeat;
+text-indent:-999px;
+float:left;
+margin-right:15px;
+}
+
+.clear{
+  clear:both;
+}
