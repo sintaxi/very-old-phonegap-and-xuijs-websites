@@ -15,6 +15,7 @@
     <div class="leftbox">
       <h3>What is PhoneGap?</h3>
       <p>PhoneGap is a development tool that allows web developers to take advantage of the core features in the <strong>iPhone</strong>, <strong>Android</strong>, and <strong>Blackberry</strong> SDK using JavaScript.</p>
+      <p>Follow us on Twitter <a href="http://www.twitter.com/phonegap">@phonegap</a></p>
     </div>
       
     <div class="rightbox">
@@ -51,6 +52,18 @@
         <td class="device">Accelerometer</td>
         <td class="accept">yes</td>
         <td class="accept">yes</td>
+        <td>NA</td>
+      </tr>
+      <tr>
+        <td class="device">Sound</td>
+        <td class="accept">yes</td>
+        <td >pending</td>
+        <td>NA</td>
+      </tr> 
+      <tr>
+        <td class="device">Contact Support</td>
+        <td >pending</td>
+        <td >pending</td>
         <td>NA</td>
       </tr>
     </table>

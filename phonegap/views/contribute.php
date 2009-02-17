@@ -3,6 +3,9 @@
   <div class="wrap body">
     <h1>Contibuting to PhoneGap</h1>
     
+    <h2 class="support">PhoneGap Google Group</h2>
+    <p>In most cases the <a href="http://groups.google.com/group/phonegap">PhoneGap Google Group</a> is the best way to contact us. The PhoneGap community is very active. Your questions have the best chance of being answered promptly if posted here.</p>
+    
     <h2 class="support">Share What You Know</h2>
     <p><a href="http://phonegap.pbwiki.com">PhoneGap has a wiki!</a> It is your tool to use. We need your help populating it. The wiki is the first place to go for up to date information. And a great place for you to start contributing.</p>
     
