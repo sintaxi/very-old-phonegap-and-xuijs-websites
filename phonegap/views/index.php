@@ -7,7 +7,7 @@
         <div id="idev_badge">360|iDev</div>
       </a>
       <h3>PhoneGap training in San Jose!</h3>
-      <p>Brian Leroux and Brock Whitten of the PhoneGap team will be doing hands on training at <a href="">360|iDev in San Jose, March 1st</a></p>
+      <p>Brian Leroux and Brock Whitten of the PhoneGap team will be doing hands on training at <a href="http://www.360conferences.com/360iDev/2009/01/phonegap-training-hands-on-session-on.html">360|iDev in San Jose, March 1st</a></p>
       <div class="clear"></div>
     </div>
     <br />
