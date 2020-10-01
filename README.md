@@ -1,3 +1,5 @@
+Sintaxi and amazing project
+
 # XUI
 
     cap -S app=xui deploy
